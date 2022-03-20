@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<from>
+    <fieldeset>
+            <legend>상품 선택</legend>
+            <lable>텍스트</lable><input type="text" size="10"></lable><br>
+            <lable>비밀번호<imput type="password"></imput></lable><br>
+        <input type="submit" value="로그인">
+    </fieldeset>
+    <fieldeset>
+        <legend>배송 정보</legend>
+        <ul>
+            <li>
+                <lable for="name">이름</lable>
+                <input type="text" id="name" size="10">
+            </li>
+            <li>
+                <lable for="addrass"></lable>
+                <input type=" id=addrass">
+            </li>
+            <li>
+                <lable for="mail">이메일0</lable>
+                <input type="email" id="mail">
+                <lable for="phone"> 전화번호</lable>
+                <input type="tel" id="phone">
+
+            </li>
+        </ul>
+    </fieldeset>
+    <fieldeset>
+        <legend>상품 선택</legend>
+        <p>주문할 상품을 선택하세요</p>
+       <lable><input type="checkbox"딸기></lable>
+        <lable><input type="checkbox">사과</lable>
+        <lable><input type="checkbox">배
+        <p>포장여부를 선택하세요</p></lable>
+        <lable><input type="radio" name="pack">포장</lable>
+        <lable><input type="radio" name="pack">포장 안 함</lable>
+
+    </fieldeset>
+    <fieldest>
+        <legend>개수선택</legend>
+        <ul>
+        <li>
+            <lable>딸기</lable>
+            <input type="number" min="0" max="5>kg">
+        </li>
+            <li>
+                <lable></lable>
+                <input type="range" min="0" max="3" value="0>kg">
+            </li>
+            </ul>
+    </fieldest>
+    <fieldset>
+        <legend>배송일 지정</legend>
+        <input type="date">
+        <input type="month">
+               <input type="week">
+        <input type="time">
+        <input type="datetime-local">
+        <input type="date" min="2022-03-1" max="2022-02-15">
+    </fieldset>
+    <fieldset>
+        <legend>개인정보입력</legend>
+        <ul>
+            <li>
+            <lable for="username">이름</lable>
+            <input  type="text" id="username">
+        </li>
+            <li>
+                <lable for="birthday">생년월일</lable>
+                <input type="date" id="birthday">
+            </li>
+        </ul>
+        <div>
+            <input type="submit" value="제출하기">
+            <input type="reset" value="초기화">
+            <input type="image" src="img/skt-seo.jpg" width="10">
+            <input type="button" value="네이버 열기" onclick="window.open('https://www.naver.com/')">
+            <input type="file">
+        </div>
+    </fieldset>
+</from>
+</body>
+</html>
