@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼 연습하기 3</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>배송 정보</legend>
+        <label for="memo">메모</label>
+        <textarea id="memo" cols="30" rows="4"></textarea>
+        <label>배송장소</label>
+        <select>
+            <option>집</option>
+            <option>회사</option>
+            <option>기타</option>
+        </select>
+        <label>포장 여부</label>
+        <input type="text" list="package">
+        <datalist id="package">
+            <option value="gift">선물 포장</option>
+            <option value="box">박스 포장</option>
+            <option value="none"> 포장 안함</option>
+        </datalist>
+    </fieldset>
+</form>
+</body>
+</html>
