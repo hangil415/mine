@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+        #m {font-family: "맑은 고딕"; }
+        #d {font-family: "돋움"; }
+        #g {font-family: "굴림"; }
+        #h2 {
+        font-family: "Noto Serif Korean"
+        }
+        .phrase {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>글꼴 알아보기</h1>
+    <ul>
+        <li id="m">맑은 고딕</li>
+        <li id="d">돋움</li>
+        <li id="g">굴림</li>
+    </ul>
+    <h1>글씨 크기 바꾸기</h1>
+    <ul>
+        <li style="font-size: 30px; ">절대 크기</li>
+        <li style="font-size: 1em; ">상대크기: 1em이 부모의 크기</li>
+        <li>크기</li>
+        <li style="font-size: 150%;">백분율</li>
+    </ul>
+    <h2>이댈릭체 굵기주기</h2>
+    <ul>
+        <li style="font-style: italic;"></li>
+        <li style="font-weight: bold"></li>
+        <li style="font-weight: lighter"></li>
+    </ul>
+    <h2>색깔 연습하기</h2>
+    <ul>
+        <li style="color: blue;">색깔 이름 사용</li>
+        <li style="color: #f049f;">색깔 코드 사용</li>
+        <li style="color: 150;">rgb 코드 사용 : 0~255 사이 숫자 3개</li>
+        <li style="color: rgba(182, 34, 100, 0.5)">RGBA 코드 사용: 0~255 사이의 숫자 3개 + 0~1 사이의 소수</li>
+    </ul>
+    <input type="color">
+    <h2>글씨 정렬</h2>
+    <div class="phrase" style="text-align: left;">원숭이도 나무에서 떨어진다.</div>
+    <div class="phrase" style="text-align center;">원숭이도 나무에서 떨어진다.</div>
+    <div class="phrase" style="text-align: right;">원숭이도 나무에서 떨어진다.</div>
+    <div class="phrase" style="text-align: justify;">원숭이도 나무에서 떨어진다.</div>
+    <h2>줄 사이에 간격</h2>
+    <div class="phrase" style="font-size: 12px; line-height: 0.5;">동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+    <div class="phrase" style="font-size: 12px; line-height: 0.5;">동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+<h2>text-decoration</h2>
+    <p style="text-decoration nono;">nono</p>
+    <p style="text-decoration underliner;">underline</p>
+    <p style="text-decoration overline;">overline</p>
+    <p style="text-decoration line through;">line through</p>
+    <h2>그림자</h2>
+    <p style="font-size: 24px: color: red; text-shadow: 3px 3px black">html</p>
+    <p style="font-size: 24px: color: red; text-shadow: 5px 5px black">html</p>
+    <p style="font-size: 24px: color: red; text-shadow: -5px -5px black">html</p>
+    <p style="font-size: 24px: color: black; text-shadow: 5px 5px 10px orange">html</p>
+    <h2>글자 사이 간격 조절</h2>
+    <p style="font-size: 30px;"></p>
+    <p style="font-size: 30px; letter-spacing: 0.5em">css: 0.5em</p>
+    <p style="font-size: 30px; letter-spacing: 2em">css: 2em</p>
+</div>
+</body>
+</html>
