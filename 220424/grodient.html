@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>gradient</title>
+    <style>
+        .grad {
+        width: 300px;
+        height: 180px;
+        border: 1px solid black;
+        }
+        #grad1 {
+        background: linear-gradient(to right, blue, white);
+        }
+        #grad2 {
+        background: linear-gradient(to right bottom, red, white);
+        }
+        #grad3 {
+        background: linear-gradient(30deg, yellow, white);
+        }
+        #grad4 {
+        background: linear-gradient(to left, green, yellow, white);
+        }
+        #grad5 {
+        background: linear-gradient(purple, pink 20%, white);
+        }
+        #grad6 {
+        background: radial-gradient(white, yellow, red);
+        }
+        #grad7 {
+        background: radial-gradient(circle, white, yellow, red);
+        }
+        #grad8 {
+        background: radial-gradient(circle at 20% 20%, white, yellow, red);
+        }
+        #grad9 {
+        background: radial-gradient(circle, white, cyan 80%, blue);
+        }
+        #grad10 {
+        background: repeating-linear-gradient(yellow, red 20px);
+        }
+        #grad11 {
+        background: repeating-radial-gradient(circle, white, gray 10%);
+        }
+        #grad12 {
+        background: repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+        }
+        #grad13 {
+        background: repeating-radial-gradient(circle, white, white 10%, gray 10%, gray 20%);
+        }
+    </style>
+</head>
+<body>
+<div class="grad" id="grad1"></div>
+<div class="grad" id="grad2"></div>
+<div class="grad" id="grad3"></div>
+<div class="grad" id="grad4"></div>
+<div class="grad" id="grad5"></div>
+<div class="grad" id="grad6"></div>
+<div class="grad" id="grad7"></div>
+<div class="grad" id="grad8"></div>
+<div class="grad" id="grad9"></div>
+<div class="grad" id="grad10"></div>
+<div class="grad" id="grad11"></div>
+<div class="grad" id="grad12"></div>
+<div class="grad" id="grad13"></div>
+</body>
+</html>
